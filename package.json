@@ -1,7 +1,7 @@
 {
   "name": "vue-button",
-  "version": "0.0.12",
-  "description": "> Button component for Vue.js v2.0.1+.",
+  "version": "0.1.0",
+  "description": "Button component for Vue.js v2.0.1+.",
   "author": "steven5538 <steven5538@gmail.com>",
   "keywords": [
     "vue",

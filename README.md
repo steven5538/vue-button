@@ -1,4 +1,5 @@
-# vue-button
+# vue-button [![Dependency Status])(https://img.shields.io/gemnasium/steven5538/vue-button.svg?style=flat-square)](https://gemnasium.com/github.com/steven5538/vue-button) ![MIT License](https://img.shields.io/github/license/steven5538/vue-button.svg?style=flat-square)
+
 
 > Button component for Vue.js v2.0.1+.
 
