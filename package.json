@@ -26,8 +26,7 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "karma start test/unit/karma.conf.js --single-run",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
+    "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "main": "./dist/vue-button.js",
@@ -76,7 +75,6 @@
     "karma-webpack": "^1.7.0",
     "lolex": "^1.4.0",
     "mocha": "^3.1.0",
-    "nightwatch": "^0.9.8",
     "opn": "^4.0.2",
     "ora": "^0.3.0",
     "phantomjs-prebuilt": "^2.1.3",

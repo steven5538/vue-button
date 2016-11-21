@@ -9,6 +9,6 @@ Vue.config.devtools = true
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<div><v-button markup="error">Hello</v-button><br/><br/><v-button>Hello</v-button></div>',
+  template: '<div><v-button markup="warning">Hello</v-button><br/><br/><v-button>Hello</v-button></div>',
   components: { VueButton }
 })
