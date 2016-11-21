@@ -1,4 +1,4 @@
-import vButton from './components/Button.vue'
+import VueButton from './components/Button.vue'
 
-export default vButton
-export { vButton }
+export default VueButton
+export { VueButton }

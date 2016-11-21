@@ -1,6 +1,6 @@
 {
   "name": "vue-button",
-  "version": "0.0.3",
+  "version": "0.0.10",
   "description": "Button component for Vue.js",
   "author": "steven5538 <steven5538@gmail.com>",
   "keywords": [
@@ -30,9 +30,8 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
+  "main": "./dist/vue-button.js",
   "dependencies": {
-    "node-sass": "^3.13.0",
-    "sass-loader": "^4.0.2",
     "vue": "^2.0.1"
   },
   "devDependencies": {
@@ -92,7 +91,9 @@
     "webpack": "^1.13.2",
     "webpack-dev-middleware": "^1.8.3",
     "webpack-hot-middleware": "^2.12.2",
-    "webpack-merge": "^0.14.1"
+    "webpack-merge": "^0.14.1",
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2"
   },
   "engines": {
     "node": ">= 4.0.0",

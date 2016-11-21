@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import vButton from './components/Button.vue'
+import VueButton from './components/Button.vue'
 
-Vue.component('v-button', vButton)
+Vue.component('v-button', VueButton)
 
 Vue.config.debug = true
 Vue.config.devtools = true
@@ -10,5 +10,5 @@ Vue.config.devtools = true
 new Vue({
   el: '#app',
   template: '<v-button>Hello</v-button>',
-  components: { vButton }
+  components: { VueButton }
 })

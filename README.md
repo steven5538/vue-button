@@ -20,10 +20,10 @@ $ npm install vue-button
 </template>
 
 <script>
-import vButton from 'vue-button'
+import VueButton from 'vue-button'
 export default {
   components: {
-    vButton
+    VueButton
   }
 }
 </script>
